@@ -1,6 +1,6 @@
-let sort=array=>{
+let max=array=>{
 	const arry2=[];
-	let p=0,max=array[0],min=arry[0];
+	let p=0,max=array[0],min=array[0];
 	for(let i=0;i<array.length;i++){
 		if(min>arry[i]){
 			min=arry[i];
@@ -23,4 +23,4 @@ let sort=array=>{
 return arry2;	
 }
 let arry=[1,100,-1000,5,8,989,09,87];
-console.log(sort(arry));
+console.log(max(arry));
