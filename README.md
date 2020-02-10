@@ -1,0 +1,2 @@
+# testjs
+normal JavaScript 
